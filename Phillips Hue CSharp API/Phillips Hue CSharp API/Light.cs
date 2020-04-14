@@ -1,4 +1,11 @@
-﻿using Newtonsoft.Json.Linq;
+﻿/*
+ * Light Class: This class doubles as an abstraction for Phillips Hue
+ *              technology, and as an interface for the user to access
+ *              said technology. It works with the JSONHandler class
+ *              to retrieve and parse information from the Hue Bridge.
+ */
+
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Linq;
